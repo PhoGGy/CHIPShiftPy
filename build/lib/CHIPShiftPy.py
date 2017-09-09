@@ -20,8 +20,8 @@ def setup():
     GPIO.setup(data, GPIO.OUT)
     GPIO.setup(clock, GPIO.OUT)
     GPIO.setup(latch, GPIO.OUT)
-	GPIO.output(clock, GPIO.LOW)
-	GPIO.output(latch, GPIO.LOW)
+    GPIO.output(clock, GPIO.LOW)
+    GPIO.output(latch, GPIO.LOW)
     write_all(0)
 
 
