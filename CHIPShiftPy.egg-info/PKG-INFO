@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: CHIPShiftPy
+Version: 0.1.0
+Summary: Easily use 74HC595 and Other Shift registers with your NextThing CHIP
+Home-page: https://github.com/PhoGGy/CHIPShiftPy
+Author: Shrikant Patnaik
+Author-email: me@shrikantpatnaik.com
+License: MIT
+Description: CHIP Shift Register Library
+        ===================================
+        
+        This is a simple(not very optimised) library to use Shift registers on a
+        nextthing CHIP.
+        
+        It is based on the CHIP_IO GPIO Library.
+        
+        Author
+        ------
+        
+        Shrikant Patnaik
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

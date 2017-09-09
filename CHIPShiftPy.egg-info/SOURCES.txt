@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+CHIPShiftPy.py
+README.rst
+setup.cfg
+setup.py
+CHIPShiftPy.egg-info/PKG-INFO
+CHIPShiftPy.egg-info/SOURCES.txt
+CHIPShiftPy.egg-info/dependency_links.txt
+CHIPShiftPy.egg-info/pbr.json
+CHIPShiftPy.egg-info/top_level.txt
