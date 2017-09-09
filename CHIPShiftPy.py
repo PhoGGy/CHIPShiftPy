@@ -1,13 +1,13 @@
-import RPi.GPIO as GPIO	#replace with CHIP_IO
+import CHIP_IO.GPIO as GPIO	#replaced with CHIP_IO
 from time import sleep
 
-data = 18
-clock = 23
-latch = 24
-chain = 2
+data = "CSID0"
+clock = "CSID1"
+latch = "CSID2"
+chain = 1
 
 
-def init(data_pin=18, clock_pin=23, latch_pin=24, chain_number=1):
+def init(data_pin="CSID0", clock_pin="CSID1", latch_pin="CSID2", chain_number=1):
     global data, clock, latch, chain
     data = data_pin
     clock = clock_pin
@@ -17,11 +17,11 @@ def init(data_pin=18, clock_pin=23, latch_pin=24, chain_number=1):
 
 
 def setup():
-    GPIO.setwarnings(False)
-    GPIO.setmode(GPIO.BCM)
     GPIO.setup(data, GPIO.OUT)
-    GPIO.setup(clock, GPIO.OUT, initial=GPIO.LOW)
-    GPIO.setup(latch, GPIO.OUT, initial=GPIO.LOW)
+    GPIO.setup(clock, GPIO.OUT)
+    GPIO.setup(latch, GPIO.OUT)
+	GPIO.output(clock, GPIO.LOW)
+	GPIO.output(latch, GPIO.LOW)
     write_all(0)
 
 
