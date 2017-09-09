@@ -8,15 +8,15 @@ def read(*paths):
     return f.read()
 
 setup(
-  name='PiShiftPy',
+  name='CHIPShiftPy',
   version='0.1.0',
-  description='Easily use 74HC595 and Other Shift registers with your Raspberry Pi',
+  description='Easily use 74HC595 and Other Shift registers with your Nextthing CHIP',
   long_description=(read('README.rst')),
-  url='https://github.com/shrikantpatnaik/PiShiftPy',
+  url='https://github.com/PhoGGy/CHIPShiftPy',
   license='MIT',
   author='Shrikant Patnaik',
   author_email='me@shrikantpatnaik.com',
-  py_modules=['PiShiftPy'],
+  py_modules=['CHIPShiftPy'],
   include_package_data=True,
   classifiers=[
     'Development Status :: 5 - Production/Stable',
